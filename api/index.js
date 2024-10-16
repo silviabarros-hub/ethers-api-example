@@ -2,7 +2,7 @@ const express = require('express')
 const http = require('http')
 const cors = require('cors')
 // const { createApolloServer } = require('./lib/apollo')
-const { transaction } = require('./lib/routes')
+const { transaction, silviabarrosapitest } = require('./lib/routes')
 
 const config = require('./config')
 
@@ -20,6 +20,7 @@ async function main() {
 
   app.use(express.json())
   app.use(config.transactionPath, cors(), transaction)
+  app.use(cors(), silviabarrosapitest)
 
   // const apolloServer = await createApolloServer(httpServer)
   // app.use(

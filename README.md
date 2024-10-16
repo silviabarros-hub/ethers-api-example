@@ -1,3 +1,19 @@
+# Ethers API call
+
+- Smart Contract Interaction
+Utilizes Ethers.js to connect to any smart contract. This example shows the interaction with one deployed on the Binance Smart Chain, enabling interaction with its functions.
+
+RESTful API: Provides an Express.js API endpoint (/silviabarrosapitest) that clients can use to fetch token details and wallet balances.
+
+CORS Support: Configured to allow Cross-Origin Resource Sharing (CORS) requests, enabling frontend applications to communicate with the API from different domains.
+
+Added/Updated files:
+/Users/silviabarros/test-project/api/lib/routes/silviabarrosapitest.js
+/Users/silviabarros/test-project/contracts/contract_ABI.js
+/Users/silviabarros/test-project/api/lib/routes/index.js
+/Users/silviabarros/test-project/api/index.js
+
+
 # Lunie Official Monorepo
 
 ## Workspaces:
